@@ -166,8 +166,8 @@ Before cloning and running, make sure you have:
 ### Step 1 - Clone the Repository
 
 ```sh
-git clone https://github.com/ShubhamPandey020525/customer_support_ticket_agent_E23CSEU1167_SHUBHAM_PANDEY.git
-cd customer_support_ticket_agent_E23CSEU1167_SHUBHAM_PANDEY
+git clone https://github.com/ShubhamPandey020525/customer_support_ticket_agent.git
+cd customer_support_ticket_agent
 ```
 
 ---
