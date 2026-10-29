@@ -109,10 +109,10 @@ User types/speaks  -->  Streamlit UI
         |         --> Qwen2.5:3b --> grounded text response
         |
         +-- Node: collect_or_create (no LLM call)
-             |-- Check session.ticket_id (idempotency guard)
-             |-- Merge extracted fields into ConversationState
-             |-- If fields missing --> ask follow-up question
-             +-- If all fields present --> TicketRepository.create() --> ticket_id
+        |     |-- Check session.ticket_id (idempotency guard)
+        |     |-- Merge extracted fields into ConversationState
+        |     |-- If fields missing --> ask follow-up question
+        |     +-- If all fields present --> TicketRepository.create() --> ticket_id
         |
         v
     LangGraph END  -->  FastAPI  -->  ChatResponse {response, sources, ticket_id}
