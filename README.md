@@ -1,5 +1,4 @@
 # Customer Support Ticket Agent
-### E23CSEU1167 - Shubham Pandey
 
 > A fully local, privacy-first AI customer support agent that answers policy questions via **RAG**, raises support tickets through **multi-turn conversation**, and supports **voice input (STT) + voice playback (TTS)** - all without any external API keys.
 
